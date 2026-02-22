@@ -68,7 +68,7 @@ Prérequis: Docker installé et en cours d'exécution. Ports 8080 et 8888 dispon
 
 Étapes (minimum pour lancer)
 
-Copier/cloner le dépôt et ouvrir le dossier racine du projet (contenant docker-compose.yml).
+Copier/coller le dépôt et ouvrir le dossier racine du projet (contenant docker-compose.yml).
 Construire et démarrer tous les services:
 
 docker compose up --build -d
@@ -86,7 +86,7 @@ Arrêter et supprimer les conteneurs
 
 docker compose down
 
-(si vous voulez aussi supprimer les volumes de données PostgreSQL:)
+(si vous voulez aussi supprimer les volumes de données PostgreSQL):
 
 docker compose down -v
 
